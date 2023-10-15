@@ -1,0 +1,40 @@
+<!--CONTACTS PAGE-->
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class="ontainer">
+<div class="jumbotron">
+
+    <h1>Contacts</h1>
+    <p>rashidang324@gmail.com</p>
+    <p>647-829-1591</p>
+    <h3>You can also reach out to me using the form below:</h3>
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+    
+        <label for="contactnumber">Contact Number:</label><br>
+        <input type="tel" id="contactnumber" name="contactnumber" pattern="[0-9]{10}" required><br><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    </div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+   
